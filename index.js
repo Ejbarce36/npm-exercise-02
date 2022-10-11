@@ -6,10 +6,10 @@ const vowelsList = ['a', 'e', 'i', 'o', 'u'];
 let vcount = 0;
 
 for (let letter of args1) {
-    if (vowelsList.includes(letter)) {
-        vcount++;
-    }
+  if (vowelsList.includes(letter)) {
+    vcount++;
+  }
 }
 console.log(args1);
-console.log("number of arguments is " + args.length);
-console.log(vcount)
+console.log('number of arguments is ' + args.length);
+console.log(vcount);
